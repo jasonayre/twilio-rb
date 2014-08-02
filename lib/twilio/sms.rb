@@ -7,7 +7,7 @@ module Twilio
     class << self
       private
       def resource_name
-        "SMS/Messages"
+        "Messages"
       end
 
       def prepare_params(opts) # :nodoc:
